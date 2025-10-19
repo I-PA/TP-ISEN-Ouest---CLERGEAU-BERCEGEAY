@@ -91,7 +91,7 @@ html {
 
 .dp-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .dp-card img {
@@ -133,7 +133,7 @@ html {
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .block-alternance img {
@@ -168,7 +168,7 @@ html {
   background-color: #e30613;
   color: #fff;
   display: inline-block;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 3.45rem;
   font-weight: 700;
   text-decoration: none;
@@ -367,6 +367,7 @@ html {
 .footer-col a:hover {
   text-decoration: underline;
 }
+
 .footer-bottom {
   text-align: center;
   padding-top: 15px;
@@ -376,15 +377,20 @@ html {
   font-size: 14px;
 }
 
+/* ===========================
+   RESPONSIVE
+=========================== */
 @media (max-width: 900px) {
   .footer-container {
     flex-direction: column;
     gap: 20px;
   }
+
   .footer-links-container {
     flex-direction: column;
     gap: 20px;
   }
+
   .footer-cities {
     text-align: left;
     font-size: 18px;
